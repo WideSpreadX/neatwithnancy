@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 
+
+font-family: 'Herr Von Muellerhoff', cursive;
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Wire One', sans-serif;
+font-family: 'Kranky', cursive;
+font-family: 'Vibes', cursive;
+font-family: 'Bubbler One', sans-serif;
+font-family: 'Dorsa', sans-serif;
+font-family: 'Mina', sans-serif;
+font-family: 'Swanky and Moo Moo', cursive;
+font-family: 'Thasadith', sans-serif;
+font-family: 'Kodchasan', sans-serif;
+
+*/
+/* viewport */
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: black;
+}
+#cora {
+  background: white;
+  padding: 1.5vw;
+  height: 85vh;
+  width: 95vw;
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: 0 0 6px white, inset 0 0 6px #aaa;
+}
+.viewport {
+  background: #eee;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  color: white;
+  width: 95vw;
+  height: 50vh;
+  box-shadow: 0 0 8px #ccc, inset 0 0 26px #bbb;
+  border-radius: 30px;
+}
+.viewport2 {
+  background: #444;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: purple;
+  width: 95vw;
+  height: 30vh;
+  margin-top: 1vh;
+  padding-top: 1.5vh;
+  border-radius: 30px;
+}
+.viewport2 p {
+  padding: 4px;
+  font-size: 1.5rem;
+}
+.inner-vp {
+  background: #bbb;
+  border-radius: 30px;
+  height: 27vh;
+  padding-left: 10px;
+  padding-top: 10px;
+  box-shadow: 0 0 6px #666, inset 0 0 4px#aaa;
+}
+#widespread {
+  background: black;
+  padding-top: 10px;
+  box-shadow: 0 0 8px #222;
+}
+.thumb-menu li {
+  color: white;
+}
+#spreadMenuLeft {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-family: "Wire One", sans-serif;
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+}
+#spreadMenuLeft li {
+  width: 20%;
+  float: left;
+  font-size: 2rem;
+}
+#spreadMenuCentral {
+  width: 33%;
+  float: left;
+  text-align: center;
+  font-family: "Wire One", sans-serif;
+}
+#spreadMenuRight {
+  width: 33%;
+  float: left;
+  text-align: center;
+  font-family: "Wire One", sans-serif;
+}
+
+.page-header {
+  color: black;
+  font-family: "Herr Von Muellerhoff", cursive;
+}
+/* 
+
+
+font-family: "Herr Von Muellerhoff", cursive;
+font-family: "Dorsa", sans-serif;
+font-family: "Mina", sans-serif;
+font-family: "Swanky and Moo Moo", cursive;
+font-family: "Thasadith", sans-serif;
+font-family: "Bubbler One", sans-serif;
+font-family: "Vibes", cursive;
+font-family: "Darker Grotesque", sans-serif;
+font-family: "Kranky", cursive;
+font-family: "Kodchasan", sans-serif;
+font-family: 'Lovers Quarrel', cursive;
+font-family: "Annie Use Your Telescope", cursive;
+font-family: "Amatic SC", cursive;
+font-family: "Shadows Into Light Two", cursive;
+font-family: "Stalemate", cursive;
+*/
+.page-header h1 {
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 15px;
+  text-shadow: 0 0 4px #aaa;
+  color: rgba(68, 68, 68, 0.815);
+}
+p {
+  font-family: "Nothing You Could Do", cursive;
+}
